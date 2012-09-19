@@ -30,6 +30,7 @@
 TARGET_OTA_ASSERT_DEVICE := d2usc
 
 # Kernel
-TARGET_KERNEL_CONFIG    := cyanogen_d2usc_defconfig
+#TARGET_KERNEL_CONFIG       := cyanogen_d2usc_defconfig
+TARGET_PREBUILT_KERNEL      := device/samsung/d2usc/kernel
 
 
